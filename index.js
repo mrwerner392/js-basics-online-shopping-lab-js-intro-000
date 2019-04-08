@@ -28,6 +28,7 @@ function viewCart() {
       }
       cartString = cartString + `, and ${cart[cart.length - 1].itemName} at $${cart[cart.length - 1].itemPrice}.`;
     }
+  }
 }
 
 function total() {
